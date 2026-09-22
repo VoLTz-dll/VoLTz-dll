@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Carlos Henrique — desenvolvedor web em formação">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0.18"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0f0f1b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- tela -->
+  <rect width="900" height="240" rx="14" fill="#0f0f1b"/>
+  <rect width="900" height="240" rx="14" fill="url(#glow)"/>
+  <rect x="6" y="6" width="888" height="228" rx="10" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+
+  <!-- estrelas -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="60" cy="40" r="1.2"/><circle cx="140" cy="200" r="1"/><circle cx="230" cy="70" r="1.4"/>
+    <circle cx="330" cy="190" r="1"/><circle cx="410" cy="35" r="1.2"/><circle cx="520" cy="205" r="1.3"/>
+    <circle cx="610" cy="60" r="1"/><circle cx="700" cy="180" r="1.2"/><circle cx="790" cy="45" r="1.4"/><circle cx="860" cy="150" r="1"/>
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- HUD superior -->
+  <g font-family="'Courier New', Courier, monospace" font-weight="700" font-size="14" fill="#00ffff">
+    <text x="28" y="34">1UP</text>
+    <text x="70" y="34" fill="#ffffff">CARLOS HENRIQUE</text>
+    <text x="372" y="34" fill="#ff00ff">HI-SCORE</text>
+    <text x="466" y="34" fill="#ffffff">TCC · MB</text>
+    <text x="640" y="34" fill="#ffff00">FASE</text>
+    <text x="692" y="34" fill="#ffffff">UNIVESP 2026→2029</text>
+  </g>
+
+  <!-- invasores (esquerda) -->
+  <g fill="#39ff14">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 26 0; 0 0" dur="2.4s" repeatCount="indefinite"/>
+    <g transform="translate(40 70)">
+      <rect x="6" y="0" width="6" height="6"/><rect x="24" y="0" width="6" height="6"/>
+      <rect x="0" y="6" width="36" height="6"/>
+      <rect x="0" y="12" width="6" height="6" fill="#0f0f1b"/><rect x="12" y="12" width="12" height="6" fill="#0f0f1b"/><rect x="30" y="12" width="6" height="6" fill="#0f0f1b"/>
+      <rect x="0" y="18" width="36" height="6"/>
+      <rect x="6" y="24" width="6" height="6"/><rect x="24" y="24" width="6" height="6"/>
+    </g>
+    <g transform="translate(100 70)" fill="#ff00ff">
+      <rect x="6" y="0" width="6" height="6"/><rect x="24" y="0" width="6" height="6"/>
+      <rect x="0" y="6" width="36" height="6"/>
+      <rect x="0" y="18" width="36" height="6"/>
+      <rect x="6" y="24" width="6" height="6"/><rect x="24" y="24" width="6" height="6"/>
+    </g>
+    <g transform="translate(160 70)" fill="#00ffff">
+      <rect x="6" y="0" width="6" height="6"/><rect x="24" y="0" width="6" height="6"/>
+      <rect x="0" y="6" width="36" height="6"/>
+      <rect x="0" y="18" width="36" height="6"/>
+      <rect x="6" y="24" width="6" height="6"/><rect x="24" y="24" width="6" height="6"/>
+    </g>
+  </g>
+
+  <!-- nave (direita) -->
+  <g transform="translate(820 150)">
+    <animateTransform attributeName="transform" type="translate" values="820 150; 800 150; 820 150" dur="3s" repeatCount="indefinite"/>
+    <polygon points="0,-18 14,14 0,6 -14,14" fill="#39ff14"/>
+    <rect x="-2" y="-40" width="4" height="14" fill="#ffff00">
+      <animate attributeName="y" values="-40;-90;-40" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- título -->
+  <g font-family="'Courier New', Courier, monospace" font-weight="700" text-anchor="middle" filter="url(#neon)">
+    <text x="450" y="118" font-size="46" fill="#39ff14" letter-spacing="4">CARLOS HENRIQUE</text>
+    <text x="450" y="152" font-size="18" fill="#00ffff" letter-spacing="2">DESENVOLVEDOR WEB EM FORMAÇÃO</text>
+    <text x="450" y="178" font-size="14" fill="#ffffff" letter-spacing="1">REACT · NEXT.JS · NODE.JS · TYPESCRIPT · MYSQL</text>
+  </g>
+
+  <!-- press start -->
+  <text x="450" y="216" font-family="'Courier New', Courier, monospace" font-weight="700" font-size="15" fill="#ffff00" text-anchor="middle" letter-spacing="3">
+    PRESS START → ABERTO A ESTÁGIO E JOVEM APRENDIZ
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- scanlines -->
+  <rect width="900" height="240" rx="14" fill="url(#scan)"/>
+</svg>
