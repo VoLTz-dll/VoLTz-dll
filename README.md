@@ -93,7 +93,7 @@ Eu aprendo construindo. Enquanto a primeira vaga não chega, coloco projeto no a
 [![Seguidores](https://img.shields.io/github/followers/VoLTz-dll?style=flat-square&labelColor=0f0f1b&color=39ff14&logo=github&label=seguidores)](https://github.com/VoLTz-dll?tab=followers)
 ![Repositórios](https://img.shields.io/badge/dynamic/json?style=flat-square&labelColor=0f0f1b&color=00ffff&label=reposit%C3%B3rios%20p%C3%BAblicos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FVoLTz-dll)
 [![Último commit no TCC](https://img.shields.io/github/last-commit/VoLTz-dll/cosmic-defender-arcade?style=flat-square&labelColor=0f0f1b&color=ff00ff&label=%C3%BAltimo%20commit%20%C2%B7%20TCC)](https://github.com/VoLTz-dll/cosmic-defender-arcade)
-![Linguagem principal](https://img.shields.io/github/languages/top/VoLTz-dll/cosmic-defender-arcade?style=flat-square&labelColor=0f0f1b&color=ffff00&label=linguagem%20principal)
+![Linguagem principal](https://img.shields.io/github/languages/top/VoLTz-dll/cosmic-defender-arcade?style=flat-square&labelColor=0f0f1b&color=ffff00)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VoLTz-dll/VoLTz-dll/output/github-snake-dark.svg">
